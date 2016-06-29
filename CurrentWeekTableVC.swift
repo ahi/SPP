@@ -69,13 +69,20 @@ class CurrentWeekTableVC: UITableViewController, NSFetchedResultsControllerDeleg
     override func viewDidLoad() {
         super.viewDidLoad()
         self.configure()
-        tableView.rowHeight = 80
-        tableView.estimatedRowHeight = 80.0
         do {
             try fetchedResultsController.performFetch()
         } catch {
             print(error)
         }
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        do {
+            try fetchedResultsController.performFetch()
+        } catch {
+            print(error)
+        }
+        self.tableView.reloadData()
     }
     
     override func viewDidDisappear(animated: Bool) {
@@ -88,6 +95,8 @@ class CurrentWeekTableVC: UITableViewController, NSFetchedResultsControllerDeleg
     
     func configure() {
         self.gregorian.minimumDaysInFirstWeek = 4
+        tableView.rowHeight = 80
+        tableView.estimatedRowHeight = 80.0
     }
     
     override func viewWillAppear(animated: Bool) {

@@ -82,7 +82,7 @@
             </objects>
             <point key="canvasLocation" x="312" y="-1860"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Wochentyp wählen-->
         <scene sceneID="gWS-tg-RCr">
             <objects>
                 <tableViewController id="2Kv-Tu-adH" customClass="CurrentWeekTableVC" customModule="WeekPlaner" customModuleProvider="target" sceneMemberID="viewController">
@@ -210,7 +210,7 @@
                             <outlet property="delegate" destination="2Kv-Tu-adH" id="jIJ-WX-blh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="9WE-UP-5jE"/>
+                    <navigationItem key="navigationItem" title="Wochentyp wählen" id="9WE-UP-5jE"/>
                     <connections>
                         <outlet property="taskProgress" destination="hbw-mg-OOI" id="SpD-FQ-E0i"/>
                         <outlet property="weekProgress" destination="41L-A0-VhA" id="swN-cx-DR6"/>

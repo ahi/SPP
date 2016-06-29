@@ -14,7 +14,7 @@ struct Duration: CustomStringConvertible {
     
     var float: Float {
         if self.minutes > 0 {
-            return Float(self.hours) + 1.0 / (60.0 * Float(minutes))
+            return Float(self.hours) + (1.0 / 60.0) * Float(minutes)
         }
         else {
             return Float(self.hours)
