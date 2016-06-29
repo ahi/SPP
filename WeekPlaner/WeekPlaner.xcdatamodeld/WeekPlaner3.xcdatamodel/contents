@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="Task" representedClassName=".Task" syncable="YES">
+        <attribute name="hours" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="minutes" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="splitable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <relationship name="weekTypes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WeekType" inverseName="tasks" inverseEntity="WeekType" syncable="YES"/>
+    </entity>
+    <entity name="WeekNr" representedClassName=".WeekNr" syncable="YES">
+        <attribute name="finished" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="week" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <attribute name="year" attributeType="Integer 32" defaultValueString="0" indexed="YES" syncable="YES"/>
+        <relationship name="weekType" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="WeekType" inverseName="weekNr" inverseEntity="WeekType" syncable="YES"/>
+    </entity>
+    <entity name="WeekType" representedClassName=".WeekType" syncable="YES">
+        <attribute name="hours" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="minutes" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="tasks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Task" inverseName="weekTypes" inverseEntity="Task" syncable="YES"/>
+        <relationship name="weekNr" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WeekNr" inverseName="weekType" inverseEntity="WeekNr" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Task" positionX="106" positionY="108" width="128" height="118"/>
+        <element name="WeekNr" positionX="-65" positionY="90" width="128" height="103"/>
+        <element name="WeekType" positionX="-171" positionY="288" width="128" height="118"/>
+    </elements>
+</model>
