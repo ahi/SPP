@@ -23,6 +23,11 @@
 		E30676ED1D08417C00383A17 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30676EC1D08417C00383A17 /* TaskTableViewCell.swift */; };
 		E30676EF1D0841D000383A17 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30676EE1D0841D000383A17 /* TaskTableViewController.swift */; };
 		E30676F21D08474400383A17 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E30676F11D08474400383A17 /* AddTaskViewController.swift */; };
+		E3494E081D2C1E660049BB23 /* WeekPlanerEarlGreyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3494E071D2C1E660049BB23 /* WeekPlanerEarlGreyTests.swift */; };
+		E3494E101D2C23E10049BB23 /* CreateTaskTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3494E0F1D2C23E10049BB23 /* CreateTaskTest.swift */; };
+		E3494E121D2C25050049BB23 /* EarlGrey.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3494E111D2C25050049BB23 /* EarlGrey.swift */; };
+		E3494E181D2C2C070049BB23 /* BridgingHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = E3494E151D2C2A530049BB23 /* BridgingHeader.h */; };
+		E3494E1A1D2C322B0049BB23 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3494E191D2C322B0049BB23 /* TabBarController.swift */; };
 		E38133E01D174533007DC4DC /* WeekNr+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38133DE1D174533007DC4DC /* WeekNr+CoreDataProperties.swift */; };
 		E38133E11D174533007DC4DC /* WeekNr.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38133DF1D174533007DC4DC /* WeekNr.swift */; };
 		E38133E41D18C4F6007DC4DC /* WeekNumberTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38133E31D18C4F6007DC4DC /* WeekNumberTableViewController.swift */; };
@@ -33,9 +38,22 @@
 		E3C42B6F1D15ACA600D90957 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E3C42B6E1D15ACA600D90957 /* .gitignore */; };
 		E3CDE7301D1DABDF00B53B9F /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDE72F1D1DABDF00B53B9F /* TaskViewModel.swift */; };
 		E3CDE7321D1ECCEE00B53B9F /* WeekNumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CDE7311D1ECCEE00B53B9F /* WeekNumberViewModel.swift */; };
+		E67A35DFC429AE30E3F7F779 /* libPods-WeekPlanerEarlGreyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10EBE837701071D748090591 /* libPods-WeekPlanerEarlGreyTests.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E3494E0A1D2C1E660049BB23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E30676B71D07AE5600383A17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E30676BE1D07AE5600383A17;
+			remoteInfo = WeekPlaner;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		10EBE837701071D748090591 /* libPods-WeekPlanerEarlGreyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeekPlanerEarlGreyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91861FF7B066317DE92DA14C /* Pods-WeekPlanerEarlGreyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeekPlanerEarlGreyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeekPlanerEarlGreyTests/Pods-WeekPlanerEarlGreyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E30676BF1D07AE5600383A17 /* WeekPlaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeekPlaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E30676C21D07AE5600383A17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E30676C51D07AE5600383A17 /* WeekPlaner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeekPlaner.xcdatamodel; sourceTree = "<group>"; };
@@ -54,6 +72,13 @@
 		E30676EC1D08417C00383A17 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
 		E30676EE1D0841D000383A17 /* TaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
 		E30676F11D08474400383A17 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		E3494E051D2C1E660049BB23 /* WeekPlanerEarlGreyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeekPlanerEarlGreyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3494E071D2C1E660049BB23 /* WeekPlanerEarlGreyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekPlanerEarlGreyTests.swift; sourceTree = "<group>"; };
+		E3494E091D2C1E660049BB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3494E0F1D2C23E10049BB23 /* CreateTaskTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTaskTest.swift; sourceTree = "<group>"; };
+		E3494E111D2C25050049BB23 /* EarlGrey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarlGrey.swift; sourceTree = "<group>"; };
+		E3494E151D2C2A530049BB23 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		E3494E191D2C322B0049BB23 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		E38133DE1D174533007DC4DC /* WeekNr+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WeekNr+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E38133DF1D174533007DC4DC /* WeekNr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekNr.swift; sourceTree = "<group>"; };
 		E38133E31D18C4F6007DC4DC /* WeekNumberTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekNumberTableViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +91,7 @@
 		E3C42B6E1D15ACA600D90957 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E3CDE72F1D1DABDF00B53B9F /* TaskViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 		E3CDE7311D1ECCEE00B53B9F /* WeekNumberViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekNumberViewModel.swift; sourceTree = "<group>"; };
+		FCC2DDA069BA96F367A57ADD /* Pods-WeekPlanerEarlGreyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeekPlanerEarlGreyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeekPlanerEarlGreyTests/Pods-WeekPlanerEarlGreyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +102,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3494E021D2C1E660049BB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E67A35DFC429AE30E3F7F779 /* libPods-WeekPlanerEarlGreyTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		183E874E24AB6FC06EF98CC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10EBE837701071D748090591 /* libPods-WeekPlanerEarlGreyTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		634DDAA9A940F83EB249E6E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91861FF7B066317DE92DA14C /* Pods-WeekPlanerEarlGreyTests.debug.xcconfig */,
+				FCC2DDA069BA96F367A57ADD /* Pods-WeekPlanerEarlGreyTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E30676B61D07AE5600383A17 = {
 			isa = PBXGroup;
 			children = (
@@ -90,7 +141,10 @@
 				E30676E41D07AF8800383A17 /* Task+CoreDataProperties.swift */,
 				E30676E51D07AF8800383A17 /* Task.swift */,
 				E30676C11D07AE5600383A17 /* WeekPlaner */,
+				E3494E061D2C1E660049BB23 /* WeekPlanerEarlGreyTests */,
 				E30676C01D07AE5600383A17 /* Products */,
+				634DDAA9A940F83EB249E6E0 /* Pods */,
+				183E874E24AB6FC06EF98CC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				E30676BF1D07AE5600383A17 /* WeekPlaner.app */,
+				E3494E051D2C1E660049BB23 /* WeekPlanerEarlGreyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,13 +164,14 @@
 				E30676D91D07AE7500383A17 /* Main.storyboard */,
 				E30676CE1D07AE5600383A17 /* Assets.xcassets */,
 				E30676EA1D07AFCE00383A17 /* ViewHelper.swift */,
+				E3494E191D2C322B0049BB23 /* TabBarController.swift */,
+				E38275BA1D23969F00B34ECD /* Duration.swift */,
 				E30676C41D07AE5600383A17 /* WeekPlaner.xcdatamodeld */,
 				E38275B51D2355F500B34ECD /* CurrentWeek */,
 				E38133E21D18C475007DC4DC /* WeekNumber */,
 				E30676E11D07AF6200383A17 /* WeekType */,
 				E30676F01D0842B800383A17 /* Task */,
 				E38275B41D22CE9600B34ECD /* Misc */,
-				E38275BA1D23969F00B34ECD /* Duration.swift */,
 			);
 			path = WeekPlaner;
 			sourceTree = "<group>";
@@ -139,6 +195,18 @@
 				E3CDE72F1D1DABDF00B53B9F /* TaskViewModel.swift */,
 			);
 			name = Task;
+			sourceTree = "<group>";
+		};
+		E3494E061D2C1E660049BB23 /* WeekPlanerEarlGreyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3494E111D2C25050049BB23 /* EarlGrey.swift */,
+				E3494E071D2C1E660049BB23 /* WeekPlanerEarlGreyTests.swift */,
+				E3494E0F1D2C23E10049BB23 /* CreateTaskTest.swift */,
+				E3494E091D2C1E660049BB23 /* Info.plist */,
+				E3494E151D2C2A530049BB23 /* BridgingHeader.h */,
+			);
+			path = WeekPlanerEarlGreyTests;
 			sourceTree = "<group>";
 		};
 		E38133E21D18C475007DC4DC /* WeekNumber */ = {
@@ -190,6 +258,27 @@
 			productReference = E30676BF1D07AE5600383A17 /* WeekPlaner.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E3494E041D2C1E660049BB23 /* WeekPlanerEarlGreyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3494E0E1D2C1E660049BB23 /* Build configuration list for PBXNativeTarget "WeekPlanerEarlGreyTests" */;
+			buildPhases = (
+				A93ADE0B71787EABC9FD95DD /* [CP] Check Pods Manifest.lock */,
+				E3494E011D2C1E660049BB23 /* Sources */,
+				E3494E021D2C1E660049BB23 /* Frameworks */,
+				E3494E031D2C1E660049BB23 /* Resources */,
+				4AE03653A7FBF14E7A02B984 /* [CP] Embed Pods Frameworks */,
+				3A7CD8E3346FCF78BE67C73F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3494E0B1D2C1E660049BB23 /* PBXTargetDependency */,
+			);
+			name = WeekPlanerEarlGreyTests;
+			productName = WeekPlanerEarlGreyTests;
+			productReference = E3494E051D2C1E660049BB23 /* WeekPlanerEarlGreyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +291,10 @@
 				TargetAttributes = {
 					E30676BE1D07AE5600383A17 = {
 						CreatedOnToolsVersion = 7.3.1;
+					};
+					E3494E041D2C1E660049BB23 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E30676BE1D07AE5600383A17;
 					};
 				};
 			};
@@ -219,6 +312,7 @@
 			projectRoot = "";
 			targets = (
 				E30676BE1D07AE5600383A17 /* WeekPlaner */,
+				E3494E041D2C1E660049BB23 /* WeekPlanerEarlGreyTests */,
 			);
 		};
 /* End PBXProject section */
@@ -235,7 +329,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3494E031D2C1E660049BB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A7CD8E3346FCF78BE67C73F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeekPlanerEarlGreyTests/Pods-WeekPlanerEarlGreyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AE03653A7FBF14E7A02B984 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeekPlanerEarlGreyTests/Pods-WeekPlanerEarlGreyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A93ADE0B71787EABC9FD95DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E30676BB1D07AE5600383A17 /* Sources */ = {
@@ -247,6 +396,7 @@
 				E38133E01D174533007DC4DC /* WeekNr+CoreDataProperties.swift in Sources */,
 				E30676ED1D08417C00383A17 /* TaskTableViewCell.swift in Sources */,
 				E30676C61D07AE5600383A17 /* WeekPlaner.xcdatamodeld in Sources */,
+				E3494E1A1D2C322B0049BB23 /* TabBarController.swift in Sources */,
 				E30676F21D08474400383A17 /* AddTaskViewController.swift in Sources */,
 				E3CDE7321D1ECCEE00B53B9F /* WeekNumberViewModel.swift in Sources */,
 				E30676E01D07AF5800383A17 /* WeekTypeTableViewCell.swift in Sources */,
@@ -267,7 +417,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3494E011D2C1E660049BB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3494E181D2C2C070049BB23 /* BridgingHeader.h in Sources */,
+				E3494E101D2C23E10049BB23 /* CreateTaskTest.swift in Sources */,
+				E3494E081D2C1E660049BB23 /* WeekPlanerEarlGreyTests.swift in Sources */,
+				E3494E121D2C25050049BB23 /* EarlGrey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3494E0B1D2C1E660049BB23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E30676BE1D07AE5600383A17 /* WeekPlaner */;
+			targetProxy = E3494E0A1D2C1E660049BB23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E30676D01D07AE5600383A17 /* LaunchScreen.storyboard */ = {
@@ -388,6 +557,34 @@
 			};
 			name = Release;
 		};
+		E3494E0C1D2C1E660049BB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91861FF7B066317DE92DA14C /* Pods-WeekPlanerEarlGreyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeekPlanerEarlGreyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.o11.dev.WeekPlanerEarlGreyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = WeekPlanerEarlGreyTests/BridgingHeader.h;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeekPlaner.app/WeekPlaner";
+			};
+			name = Debug;
+		};
+		E3494E0D1D2C1E660049BB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC2DDA069BA96F367A57ADD /* Pods-WeekPlanerEarlGreyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeekPlanerEarlGreyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eu.o11.dev.WeekPlanerEarlGreyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = WeekPlanerEarlGreyTests/BridgingHeader.h;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeekPlaner.app/WeekPlaner";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,6 +602,15 @@
 			buildConfigurations = (
 				E30676D71D07AE5600383A17 /* Debug */,
 				E30676D81D07AE5600383A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3494E0E1D2C1E660049BB23 /* Build configuration list for PBXNativeTarget "WeekPlanerEarlGreyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3494E0C1D2C1E660049BB23 /* Debug */,
+				E3494E0D1D2C1E660049BB23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

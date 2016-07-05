@@ -68,6 +68,8 @@ class TaskTableViewController: UITableViewController, NSFetchedResultsController
         let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
         context = appDelegate.managedObjectContext
         
+        navigationItem.rightBarButtonItem?.accessibilityLabel = "addTask"
+        
         loadData()
     }
     

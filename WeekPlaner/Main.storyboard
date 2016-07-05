@@ -9,8 +9,8 @@
         <!--Tab Bar Controller-->
         <scene sceneID="sBs-KN-khR">
             <objects>
-                <tabBarController id="nAD-q2-zGA" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="5AG-xv-Ted">
+                <tabBarController id="nAD-q2-zGA" customClass="TabBarController" customModule="WeekPlaner" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" restorationIdentifier="tabBar" id="5AG-xv-Ted">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -469,7 +469,7 @@
         <scene sceneID="b9n-NA-xor">
             <objects>
                 <navigationController id="lVD-La-cyP" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="2" title="Aufgaben" image="task2" id="Q5i-hy-cNT"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="Aufgaben" image="task2" id="Q5i-hy-cNT" userLabel="Aufgaben-Nav"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZhF-aT-K3A">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
